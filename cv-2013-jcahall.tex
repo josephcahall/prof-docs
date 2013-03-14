@@ -1,0 +1,160 @@
+\documentclass[letter, 12pt, oneside]{article}
+\usepackage{soul} % Used for the title name (eg. the Elliot John Reed cv title)
+\usepackage[compact]{titlesec}
+\usepackage{marvosym} % add the symbols for email and phone contact data
+\usepackage{fancyhdr} % Required for the footer
+\usepackage{tabularx} % Nicer table style than the default
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+\definecolor{headings}{HTML}{701112} % Dark red color for headings
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+
+\usepackage[none]{hyphenat} % Prevents hyphenation in text
+
+
+\usepackage[margin=.75in]{geometry}
+
+\linespread{1.0} % Line spacing
+
+% Sections formatting
+\titleformat{\section}{\color{headings}
+\scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\pagestyle{fancy}
+
+% Prevents overfull hbox and vbox
+\hbadness=10000
+\hfuzz=50pt
+\vbadness=10000
+\vfuzz=50pt
+
+
+% add the symbols for email and phone contact data
+\fancyhf{}
+%\fancyfoot[c]{\centering\scshape{\renewcommand{\\}{\ {\large\textperiodcentered}\ }}{\Large\Letter} {jcahall@lawschool.gonzaga.edu} \ {\Large\Mobilefone} {(\texttt{+}1) 317.385.2343}}
+
+\renewcommand\headrulewidth{0pt} % Size of the header rule
+\renewcommand\footrulewidth{0pt} % Size of the footer rule
+
+\usepackage[pdfborder={0 0 0},bookmarks=true,pdftitle={Elliot John Reed's CV},pdfauthor={Elliot John Reed},pdfsubject={Curriculum Vitae},pdfcreator={www.elliotjreed.com},pdfproducer={www.elliotjreed.com}]{hyperref}
+
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%%%%%%  NAME AND CONTACT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\color{headings}\textsc{\Huge{\so{Joseph Cahall}}}\\ 
+%\large{Gonzaga University School of Law}} \\
+
+\color{text1}
+{\Large\Letter} \href{mailto:email@address.com}{jcahall@lawschool.gonzaga.edu} 
+\hfill {\Large\Mobilefone} (\texttt{+}1) 317.385.2343 \\
+
+%{\Large\Writinghand} 1921 W 3rd Ave.  Spokane, Wa. 99201 \\
+
+
+%%%%%%  EDUCATION  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2012 to 2015} & \textsc{\textbf{Gonzaga University School of Law,}} \textbf{JD}, 
+GPA: 3.25 \\ 
+&  Membership in IP club. Membership in ABA (Sections of IP and Law Students) and virtual attendance at the ABA webinar \textit{"iPhone and iPad Apps for Lawyers"}.
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2009 to 2011} & \textsc{\textbf{Washington State University:}} \textit{Graduate Program in Neuroscience}\\ 
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2006 to 2009} & \textbf{Indiana University-Purdue University Indianapolis:} \textbf{BS,} \textit{Psychology}\\ 
+\end{tabularx}
+
+
+%%%%%%  LEGAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Professional Experience}
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2009 to 2010} & \textbf{Research Assistant at the Sleep and Performance Research Center.} Spokane, Wa.\\
+Project & \emph{Local Sleep in the Cerebral Cortex is Modulated by Hemodynamics and Contributes to Cognitive Performance.} 
+\\
+My role &  Grant application; experimental design of a 4-day/3-night in-patient study; IRB approval; logistical planning; participant recruitment; participant care; fabrication and maintenance of electronic recording equipment; data collection; data analysis in Octave (open-source MATLAB\textsuperscript{\textregistered}), C\texttt{++}, SAS\textsuperscript{\textregistered}; interpretation of results and presentation.
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2009} & \textbf{Research Assistant at WSU College of Veterinary Medicine.} Pullman, Wa.\\
+Project   & \emph{Sleep characteristics of mice expressing the influenza-immunoprotective MX1 gene.}\\
+My role &  Logistical planning; animal neurosurgery; animal care; fabrication of electrodes and data collection equipment; data collection; data analysis in SPSS\textsuperscript{\textregistered}.
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\textbf{2007 to 2009} & \textbf{Research Assistant at the Indiana University School of Medicine: Institute of Psychiatric Research.} Indianapolis, In.\\
+Project & \emph{Auditory sensory gating and steady-state responses in a rodent model of schizophrenia.}\\
+My role &  Grant application; experimental design; IACUC approval; logistical planning; animal neurosurgery; animal care; fabrication of electrodes and data collection equipment; data collection; data analysis in MATLAB\textsuperscript{\textregistered} \& SPSS\textsuperscript{\textregistered}; interpretation of results and presentation.
+\end{tabularx}
+
+% Start the left-hand side of the page
+%\begin{minipage}[t]{0.38\textwidth}
+%\vspace{0pt} % Trick for alignment
+
+
+%%%%%%  ICT SKILLS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Computer Skills}
+%\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\textbf{Legal Software}   & WestLaw, LexisNexis \\
+%\textbf{Programming}   & \LaTeX, \textsc{html}, Octave, C\texttt{++} \\
+%\textbf{Analysis}   & Octave, SPSS, MatLab\\
+%\end{tabularx}
+
+
+%\end{minipage} % End left-hand side of the page
+%\hfill
+% Start the right-hand side of the page
+%\begin{minipage}[t]{0.58\textwidth} 
+%\vspace{0pt} %trick for alignment
+
+
+%%%%%%  AWARDS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards and Qualifications} 
+
+\begin{tabularx}{1\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+%\begin{tabularx}{1\linewidth}{>{\raggedright\scshape}p{1.5cm}X}
+\textbf{2013}	&  \textbf{Regional ABA Client Counseling Competition} @Seattle University \\
+\textbf{2012}    &  Winner, \textbf{ABA Client Counseling Competition} @GU School of Law \\
+\textbf{2012-13}    &  Member, \textbf{GU School of Law Moot Court Honors Council} \\
+\textbf{2009-10}    &  Winner, \textbf{Best Creative Writing} - IUPUI Literary Journal \& Conf. of Indiana Collegiate Press Assn. \\ 
+\textbf{2008-09}    &  UROP \textbf{Research Fellow} \\
+\textbf{2007}   &  IUPUI College of Liberal Arts - \textbf{Writing Fellow} \& \textbf{Rowland E Smith Award for Writing}                           
+\end{tabularx}
+
+%\end{minipage} % End right-hand side of the page
+
+
+
+%%%%%%  INTERESTS  %%%%%%%%%%%%%%%
+
+%\section{Activities and Interests}
+%\begin{flushleft}
+
+%I have been active in the IP Club's networking events and contributed to the club's IP blog.\\
+
+%\
+
+%I am in the process of creating a blog detailing my use of an iPad as textbook, notebook, and laptop replacements in law school. Additionally, I am a fan of anything technological and enjoy fabricating and modifying electronics, sometimes successfully. I am also currently beginning to learn programming for iOS app development, and automation with Arduino. 
+%I have travelled to Africa, Central Asia, and South America in recent years and plan to take trips to Europe and the South Pacific in the next two years.\\
+%\end{flushleft}
+%\section{References}
+%\begin{flushleft}
+%References can be provided upon request from faculty at Gonzaga University School of Law.
+%\end{flushleft}
+
+\end{center}
+\end{document}
