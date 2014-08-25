@@ -1,0 +1,104 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+% Updated, tweaked and changed by Joseph Cahall 8-25-2014.
+
+\documentclass[11pt, letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+
+\usepackage[swedish, english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\usepackage{datetime}
+
+% Set your name here
+\def\name{Joseph Cahall}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {\name, cover letter},
+  pdftitle = {\name: Cover Letter},
+  pdfsubject = {Cover Letter},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+
+\thispagestyle{empty}
+
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+\begin{document}
+
+\vspace{0.23in}
+
+\begin{minipage}{0.99\linewidth}
+ \begin{flushright}
+  \begin{tabular}{r}
+    \name \\
+    (317) 385-2343 \\
+    \href{mailto:jcahall@lawschool.gonzaga.edu}{jcahall@lawschool.gonzaga.edu} \\
+    \\
+  \usdate
+    \today
+  \end{tabular}
+
+ \end{flushright}
+\end{minipage}
+
+\vspace{0.23in}
+
+\begin{minipage}{0.51\linewidth}
+  \vspace{-0.2in}
+  Chris Culbertson \\
+  601 W. Main Ave \\ 
+  Spokane, WA 99201 \\
+\end{minipage}
+
+
+% Start to write after this line
+\begin{large}
+Dear Mr. Culbertson,\\
+
+I am a third year Gonzaga Univeristy Law student determined to pursue a career as a patent attorney upon graduation. I am particularly interested in working for your firm and would like to speak to you about the opportunities available.
+
+As you can see from the attached resum\'{e}, I have a strong science background. At the end of this summer I will be taking the United States Patent Registration Exam. During the summer after my first year of law school, I worked for Judge Thomas Rice at the United States District Court for the Eastern District of Washington, where I prepared bench briefs and conducted extensive research on issues under review. Through my work over the past year as a research assistant for Professor Vickie Williams, I have refined my research and writing skills. 
+
+I earned my highest grades in law school thus far in the spring semester, and continue to work to improve the skills necessary to succeed as a patent attorney. In addition to my summer positions, I have taken every opportunity possible to prepare myself for a career in patent law. I have completed virtually every intellectual property course offered by Gonzaga University Law School. My tparticipation in Saul Lefkowitz Moot Court this year will help me to develop strong oral advocacy skills and persuasive writing skills critical to patent prosecution.
+
+My academic and professional training, combined with my passion for patent law, make me a strong candidate for a position at Wolfe-SBMC. I would appreciate the chance to discuss my qualifications with you. I can be reached at (317) 385-2343 and will call your office in the next few weeks to speak about the possibility of setting up an interview. Thank you for your time and attention.
+
+
+\flushright
+Best regards,
+\par \medskip
+
+\includegraphics[height=1.5\baselineskip]{signature.pdf} \par % Insert signature
+
+\name \par
+\end{large}
+\end{document}
